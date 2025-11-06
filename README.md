@@ -1,6 +1,6 @@
 # 📝 PyQt5 To-Do List App
 
-A modern **To-Do List application** built using **PyQt5**, designed with a clean dark theme and calendar integration to organize daily tasks efficiently.
+A modern **To-Do List application** built with **PyQt5**, featuring a dark theme, calendar integration, and real-time task statistics.
 
 ---
 
@@ -14,9 +14,28 @@ A modern **To-Do List application** built using **PyQt5**, designed with a clean
 
 ---
 
+## 🧩 Project Files
+
+| File Name | Description |
+|------------|-------------|
+| `To-Do-List.py` | Main Python application code |
+| `ToDoList-project.ui` | Qt Designer UI file |
+| `To-Do-List.JPG` | Screenshot or preview image |
+
+---
+
 ## 🖼️ Preview
 
-*(Add a screenshot here — e.g., `screenshot.png`)*  
-Example:
+![App Preview](To-Do-List.JPG)
+
+---
+
+## 🚀 How to Run
+
+### Requirements
+- Python 3.x  
+- PyQt5 installed
+
+### Installation
 ```bash
-![App Preview](screenshot.png)
+pip install PyQt5
