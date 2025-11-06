@@ -1,7 +1,7 @@
 """
 --------------------------------------------
 Project: PyQt5 To-Do List Application
-Author: [Your Name]
+Author: https://github.com/iphosein
 Description:
     A simple yet elegant To-Do List app built with PyQt5.
     Features include:
@@ -34,6 +34,8 @@ class UI(QMainWindow):
     def __init__(self):
         super(UI, self).__init__()
         uic.loadUi("ToDoList-project.ui", self)
+
+        self.setWindowTitle("To-Do List")
 
         self.add_button = self.findChild(QPushButton, "add_Button")
         self.delete_button = self.findChild(QPushButton, "delete_Button")
